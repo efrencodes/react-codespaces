@@ -1,4 +1,4 @@
-![](https://github.com/efrenmartinez/react-ts-vite-base/blob/master/covers/react-ts-vite-base.png)
+![](https://github.com/efrencodes/react-ts-vite-base/blob/master/covers/react-ts-vite-base.png)
 
 ### 🎯 Used technologies:
   * ReactJS
