@@ -1,27 +1,30 @@
 {
-  "name": "vite-react",
-  "private": true,
-  "version": "0.0.0",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview",
-    "format": "prettier --write '{*.tsx,*css,src/**/*.{tsx,css}}'"
-  },
-  "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
-  },
-  "devDependencies": {
-    "@types/react": "^17.0.33",
-    "@types/react-dom": "^17.0.10",
-    "@vitejs/plugin-react": "^1.0.7",
-    "pre-commit": "^1.2.2",
-    "prettier": "^2.5.1",
-    "typescript": "^4.5.4",
-    "vite": "^2.8.0"
-  },
-  "pre-commit": [
-    "format"
-  ]
+	"name": "vite-react-prettier",
+	"author": "efrencodes <efrencodes@gmail.com> (https://efrencodes.com)",
+	"private": true,
+	"version": "0.0.0",
+	"description": "React Base | Minimal project in ReactJS + Vite + TypeScript",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview",
+		"format": "prettier --write '{*.tsx,*css.*json,src/**/*.{tsx,css}}'"
+	},
+	"license": "ISC",
+	"dependencies": {
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2"
+	},
+	"devDependencies": {
+		"@types/react": "^17.0.33",
+		"@types/react-dom": "^17.0.10",
+		"@vitejs/plugin-react": "^1.0.7",
+		"pre-commit": "^1.2.2",
+		"prettier": "^2.5.1",
+		"typescript": "^4.5.4",
+		"vite": "^2.8.0"
+	},
+	"pre-commit": [
+		"format"
+	]
 }
