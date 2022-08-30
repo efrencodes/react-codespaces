@@ -1,16 +1,31 @@
 {
-	"name": "vite-react-prettier",
+	"name": "react-ts-vite-base",
 	"author": "efrencodes <efrencodes@gmail.com> (https://efrencodes.com)",
 	"private": true,
 	"version": "0.0.0",
 	"description": "React Base | Minimal project in ReactJS + Vite + TypeScript",
+	"repository": {
+        "type": "git",
+        "url": "git+https://github.com/efrencodes/react-ts-vite-base.git"
+    },
+	"keywords": [
+        "reactjs",
+        "vite",
+        "typescript",
+        "base",
+		"tailwindcss"
+    ],
+	"bugs": {
+        "url": "https://github.com/efrencodes/react-ts-vite-base/issues"
+    },
+    "homepage": "https://github.com/efrencodes/react-ts-vite-base#readme",
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc && vite build",
 		"preview": "vite preview",
 		"format": "prettier --write '{*.tsx,*css.*json,src/**/*.{tsx,css}}'"
 	},
-	"license": "ISC",
+	"license": "MIT",
 	"dependencies": {
 		"react": "^17.0.2",
 		"react-dom": "^17.0.2"
