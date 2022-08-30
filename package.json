@@ -5,25 +5,25 @@
 	"version": "0.0.0",
 	"description": "React Base | Minimal project in ReactJS + Vite + TypeScript",
 	"repository": {
-        "type": "git",
-        "url": "git+https://github.com/efrencodes/react-ts-vite-base.git"
-    },
+		"type": "git",
+		"url": "git+https://github.com/efrencodes/react-ts-vite-base.git"
+	},
 	"keywords": [
-        "reactjs",
-        "vite",
-        "typescript",
-        "base",
+		"reactjs",
+		"vite",
+		"typescript",
+		"base",
 		"tailwindcss"
-    ],
+	],
 	"bugs": {
-        "url": "https://github.com/efrencodes/react-ts-vite-base/issues"
-    },
-    "homepage": "https://github.com/efrencodes/react-ts-vite-base#readme",
+		"url": "https://github.com/efrencodes/react-ts-vite-base/issues"
+	},
+	"homepage": "https://github.com/efrencodes/react-ts-vite-base#readme",
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc && vite build",
 		"preview": "vite preview",
-		"format": "prettier --write '{*.tsx,*css.*json,src/**/*.{tsx,css}}'"
+		"format": "prettier --write '{*.tsx,*.js,*.css,src/**/*.{tsx,css,js}}'"
 	},
 	"license": "MIT",
 	"dependencies": {
@@ -34,8 +34,11 @@
 		"@types/react": "^17.0.33",
 		"@types/react-dom": "^17.0.10",
 		"@vitejs/plugin-react": "^1.0.7",
+		"autoprefixer": "^10.4.8",
+		"postcss": "^8.4.16",
 		"pre-commit": "^1.2.2",
 		"prettier": "^2.5.1",
+		"tailwindcss": "^3.1.8",
 		"typescript": "^4.5.4",
 		"vite": "^2.8.0"
 	},
