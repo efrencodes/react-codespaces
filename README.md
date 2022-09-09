@@ -1,11 +1,12 @@
 ![](https://res.cloudinary.com/efrencodes/image/upload/v1661875808/github.com/react-ts-vite-base/react-ts-vite-base.png)
 
 ### 🎯 Used technologies:
-  * ReactJS
-  * TypeScript
-  * Vite
-  * Prettier
-  * [pre-commit](https://typicode.github.io/husky/#/)
+
+-   React
+-   TypeScript
+-   Vite
+-   Prettier
+-   [pre-commit](https://typicode.github.io/husky/#/)
 
 ### ⚙️ How To Use
 
@@ -25,7 +26,7 @@ To clone and run this application, you'll need **GIT** and **NodeJS** (which com
   $ npm run dev
 
   # Open in browser
-  # http://localhost:3000/
+  # http://localhost:5173/
 ```
 
 ### 🎨 Format code with Prettier
@@ -45,9 +46,10 @@ To clone and run this application, you'll need **GIT** and **NodeJS** (which com
   webpack.config.js 12ms
 ```
 
-
 ### 🚀 Deployment
+
 To deploy this project run
+
 ```bash
   # Build
   $ npm run build
